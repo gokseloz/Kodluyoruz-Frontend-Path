@@ -1,1 +1,1 @@
-# Kodluyoruz-Frontend-Patika
+# Kodluyoruz Front-End Patika
