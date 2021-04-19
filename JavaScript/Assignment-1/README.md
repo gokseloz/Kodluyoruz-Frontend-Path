@@ -1,6 +1,6 @@
 # Kodluyoruz Frontend Path
 
-## JavaScript Path
+## JavaScript Path | Assignment-1
 - This project is made by following an online course by https://www.patika.dev/
 
 ## What did I learn from this project?
