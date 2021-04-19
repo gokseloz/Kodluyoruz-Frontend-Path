@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 1rem;
+    font-family: monospace;
+}
+
+body {
+    background-color: #212529;
+    color: #e98208;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+h2,p {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+span {
+    font-size: 4rem;
+    color: #e98208;
+}
+
+.dayText {
+    margin-left: 2rem;
+}
+
+@media (max-width:700px) {
+    html {
+        font-size: .6rem;
+    }
+}
