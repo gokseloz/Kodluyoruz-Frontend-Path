@@ -1,7 +1,7 @@
 # Kodluyoruz Frontend Path
 
 ## JavaScript Path | Assignment-1
-- This project is made by following an online course by https://www.patika.dev/
+- This project is made by following an online course by [Kodluyoruz](https://www.patika.dev/) 
 
 ## What did I learn from this project?
 - `Date method`
