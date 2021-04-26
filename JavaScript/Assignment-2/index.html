@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript | Assignment-2</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="msg err">
+            <span class="msgText">Please type a task</span>
+        </div>
+        <div class="msg add">
+            <span class="msgText">Task added</span>
+        </div>
+
+        <div class="header">
+            <img src="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png"
+                class="mb-1" alt="" />
+            <h2 class="heading" tabindex="1">Todo List</h2>
+            <form class="listForm">
+                <label for="newTask">Type a new task</label>
+                <input type="text" id="newTask" class="inputTask" placeholder="What are you gonna do?"/>
+                <button id="liveToastBtn" class="addButton" aria-label="add new task">Add</button>
+            </form>
+            <p class="remainTasksCounter" tabindex="0"></p>
+        </div>
+
+        <ul class="listContainer">
+
+        </ul>
+
+        <script defer src="script.js"></script>
+    </div>
+</body>
+
+</html>
