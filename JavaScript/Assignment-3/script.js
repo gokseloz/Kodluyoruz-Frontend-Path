@@ -3,7 +3,7 @@ const menu = [{
         title: "Tteokbokki",
         category: "Korea",
         price: 10.99,
-        img: "https://twoplaidaprons.com/wp-content/uploads/2020/09/tteokbokki-top-down-view-of-tteokbokki-in-a-bowl-500x500.jpg",
+        img: "https://media.istockphoto.com/photos/tteokbokki-with-eggs-in-gray-bowl-on-concrete-table-top-tteokbokki-is-picture-id1253629795?k=6&m=1253629795&s=612x612&w=0&h=gbHUJQQQa8KVRPEQi-98JvrLtx9wPF7GlkNIQD6hj9s=",
         desc: `Spicy rice cakes, serving with fish cake.`,
     },
     {
@@ -11,7 +11,7 @@ const menu = [{
         title: "Chicken Ramen",
         category: "Japan",
         price: 7.99,
-        img: "https://www.forkknifeswoon.com/wp-content/uploads/2014/10/simple-homemade-chicken-ramen-fork-knife-swoon-01.jpg",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdH-cBx6oWpIwKuKFmbanv16K0bhzte2c3tByuLb2IUKjCb3oNU0v_RF6kW6CHJidEMGI&usqp=CAU",
         desc: `Chicken noodle soup, serving with vegetables such as soy bean, green onion. In an optional you can ask for egg. `,
     },
     {
