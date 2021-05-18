@@ -1,0 +1,27 @@
+import React from "react";
+import "./Coin.css";
+import CoinTura from "../../Assets/1-lira-tura.png";
+import CoinYazi from "../../Assets/1-lira-yazi.png";
+
+const Coin = (props) => {
+  let { side, flipping } = props;
+
+  return (
+    <div className="Coin-container">
+      <div className={`Coin ${flipping ? "Coin-rotate" : ""}`}>
+        <img
+          src={CoinTura}
+          className={side === "yazi" ? "Coin-back" : "Coin-front"}
+          alt="coin"
+        />
+        <img
+          src={CoinYazi}
+          className={side === "yazi" ? "Coin-front" : "Coin-back"}
+          alt="coin"
+        />
+      </div>
+    </div>
+  );
+};
+
+export default Coin;
